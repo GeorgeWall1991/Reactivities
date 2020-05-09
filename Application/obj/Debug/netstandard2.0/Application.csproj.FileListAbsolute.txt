@@ -1,0 +1,14 @@
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Application.deps.json
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Application.dll
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Application.pdb
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Persistance.dll
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\bin\Debug\netstandard2.0\Persistance.pdb
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.dll
+C:\Users\georg\Documents\CodeProjects\Reactivities\Application\obj\Debug\netstandard2.0\Application.pdb
