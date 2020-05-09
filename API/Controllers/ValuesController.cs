@@ -2,22 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Persistance;
 using Domain;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Persistence;
 
-namespace DatingApp.API.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
-
         public ValuesController(DataContext context)
         {
-            this._context = context;
+            _context = context;
         }
 
         // GET api/values
@@ -38,17 +37,21 @@ namespace DatingApp.API.Controllers
 
         // POST api/values
         [HttpPost]
-        public async void Post([FromBody] Values value)
+        public void Post([FromBody] Values value)
         {
-            var nextIncrementedId = _context.Values.Max(o => o.Id) + 1;
-            _context.Values
-            .Add(new Values
+            if (!_context.Values.Select(o => o.Name).Contains(value.Name))
+            {
+                if (_context.Values.Any())
                 {
-                    Id = nextIncrementedId,
-                    Name = value.Name
-                });
+                    _context.Values.Add(new Values { Id = _context.Values.Max(a => a.Id) + 1, Name = value.Name });
+                }
+                else
+                {
+                    _context.Values.Add(new Values { Id = 0, Name = value.Name });
+                }
 
-            await _context.SaveChangesAsync();
+                _context.SaveChanges();
+            }
         }
 
         // PUT api/values/5
@@ -63,5 +66,4 @@ namespace DatingApp.API.Controllers
         {
         }
     }
-
 }

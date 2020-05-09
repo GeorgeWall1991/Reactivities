@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\API\\API.csproj": {}
+    "C:\\Users\\georg\\Documents\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\API\\API.csproj": {
+    "C:\\Users\\georg\\Documents\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\Documents\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\API\\API.csproj",
+        "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\API\\obj\\",
+        "outputPath": "C:\\Users\\georg\\Documents\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Application\\Application.csproj"
+              "C:\\Users\\georg\\Documents\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Application\\Application.csproj": {
+    "C:\\Users\\georg\\Documents\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\Documents\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Application\\obj\\",
+        "outputPath": "C:\\Users\\georg\\Documents\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -100,11 +100,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Persistance\\Persistance.csproj"
+              "C:\\Users\\georg\\Documents\\Reactivities\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Persistance\\Persistance.csproj": {
+    "C:\\Users\\georg\\Documents\\Reactivities\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\Documents\\Reactivities\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Persistance\\Persistance.csproj",
+        "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Persistance\\Persistance.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Persistance\\obj\\",
+        "outputPath": "C:\\Users\\georg\\Documents\\Reactivities\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -219,8 +219,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\georg\\Documents\\CodeProjects\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\georg\\Documents\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
