@@ -104,3 +104,5 @@ C:\Users\georg\Documents\Reactivities\API\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\georg\Documents\Reactivities\API\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\georg\Documents\Reactivities\API\obj\Debug\netcoreapp3.1\API.pdb
 C:\Users\georg\Documents\Reactivities\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+C:\Users\georg\Documents\Reactivities\API\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\georg\Documents\Reactivities\API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
