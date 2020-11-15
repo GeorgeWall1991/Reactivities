@@ -4,13 +4,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistance;
-using Persistence;
 
 namespace Persistance.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200508220404_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20200508223732_SeedValues")]
+    partial class SeedValues
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

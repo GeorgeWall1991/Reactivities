@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Persistence;
+using Persistance;
 
 namespace Application.Activities
 {

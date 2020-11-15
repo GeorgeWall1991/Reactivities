@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Persistence;
+using Persistance;
 
 namespace API.Controllers
 {
