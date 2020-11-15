@@ -13,6 +13,7 @@ namespace API.Controllers
     public class ActivitiesController : ControllerBase
     {
         private readonly IMediator _mediator;
+
         public ActivitiesController(IMediator mediator)
         {
             _mediator = mediator;
@@ -24,5 +25,10 @@ namespace API.Controllers
             return await _mediator.Send(new List.Query());
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Activity>> Details(Guid id)
+        {
+            return await _mediator.Send(new Details.Query {Id = id});
+        }
     }
 }
