@@ -29,6 +29,5 @@ namespace Application.Activities
                 return activity;
             }
         }
-
     }
 }

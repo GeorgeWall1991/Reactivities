@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +13,7 @@ namespace API.Controllers
     public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
+
         public ValuesController(DataContext context)
         {
             _context = context;
@@ -42,13 +42,9 @@ namespace API.Controllers
             if (!_context.Values.Select(o => o.Name).Contains(value.Name))
             {
                 if (_context.Values.Any())
-                {
-                    _context.Values.Add(new Values { Id = _context.Values.Max(a => a.Id) + 1, Name = value.Name });
-                }
+                    _context.Values.Add(new Values {Id = _context.Values.Max(a => a.Id) + 1, Name = value.Name});
                 else
-                {
-                    _context.Values.Add(new Values { Id = 0, Name = value.Name });
-                }
+                    _context.Values.Add(new Values {Id = 0, Name = value.Name});
 
                 _context.SaveChanges();
             }
